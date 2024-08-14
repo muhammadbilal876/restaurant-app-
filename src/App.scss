@@ -1,0 +1,81 @@
+@import './scss/bootstrap';
+@import './scss/auth';
+@import './scss/toastify';
+@import './scss/login';
+@import './scss/dashboard';
+
+#root{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  
+}
+main{
+    flex: 1 0 auto;
+}
+
+
+body, html {
+    height: 100%;
+    overflow-x: hidden;
+    font-family: Arial, sans-serif;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.landing-page {
+    background-image: url('./pages/assets/pexels-ella-olsson-572949-1640777.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.content {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+.descrip {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+.button {
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    background: #ff5733;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    text-decoration: none;
+}
+
+.button:hover {
+    background: #ff2e00;
+}
+.navbar{
+.loginBtn{
+    background-color: #ff5733;
+  }
+.loginBtn:hover {
+  background: #ff2e00;
+}
+
+}
